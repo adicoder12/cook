@@ -110,4 +110,9 @@
         background-color: lightblue;
     }
 
+    .size {
+        width: 350px;
+        height: 200px;
+    }
+
 }
