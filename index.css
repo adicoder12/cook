@@ -34,7 +34,6 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #93291E, #ED213A);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .grad5 {
@@ -44,8 +43,6 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F09819, #FF512F);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 
 .font {
@@ -106,4 +103,11 @@
 
 #fixed:hover {
     background-image: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
 }
